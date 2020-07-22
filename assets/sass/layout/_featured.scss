@@ -1,0 +1,35 @@
+//Section Featured
+.featured {
+  background-color: #fff;
+}
+.price {
+  margin: 7% 0;
+  text-align: center;
+  p {
+    font-size: 14px;
+    margin: 0;
+    color: #888;
+  }
+  i {
+    font-size: 12px;
+    color: #888;
+  }
+  h5 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    text-align: center;
+    margin: 6% 0 8% !important;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    margin: 15% 0 12% !important;
+    text-transform: uppercase;
+  }
+}

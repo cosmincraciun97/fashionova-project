@@ -1,0 +1,24 @@
+//Section journal
+.section-spacing {
+  .post-meta {
+    position: relative;
+    color: #888;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .card {
+    border: none;
+  }
+  .card-body {
+    padding: 1.25rem 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: 300ms color;
+    &:hover {
+      color: rgb(177, 63, 26);
+    }
+  }
+}

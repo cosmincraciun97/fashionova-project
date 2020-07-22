@@ -1,0 +1,52 @@
+//section follow
+.follow-img {
+  margin-bottom: 2rem;
+}
+
+// follow us animation
+.follow a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.follow a i {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.follow a:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 83, 83, 0.7);
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.follow a:hover i {
+  opacity: 1;
+  visibility: visible;
+}
+
+.follow a:hover::before {
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}

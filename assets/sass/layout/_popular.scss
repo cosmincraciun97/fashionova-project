@@ -1,0 +1,13 @@
+//fix carousel
+.tns-controls {
+  display: none;
+}
+.tns-nav {
+  display: none;
+}
+button[data-action~="stop"] {
+  display: none;
+}
+.slide {
+  overflow: hidden;
+}
