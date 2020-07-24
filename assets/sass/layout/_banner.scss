@@ -5,7 +5,9 @@
     rgba(248, 193, 196, 0.95),
     rgba(226, 147, 140, 0.95)
   );
-
+  .banner-left {
+    display: block !important;
+  }
   h1 {
     font-size: 40px;
     line-height: 56px;
